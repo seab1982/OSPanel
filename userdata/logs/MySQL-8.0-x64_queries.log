@@ -1,0 +1,6 @@
+c:\ospanel\modules\database\MySQL-8.0-x64\bin\mysqld.exe, Version: 8.0.15 (MySQL Community Server - GPL). started with:
+TCP Port: 3306, Named Pipe: (null)
+Time                 Id Command    Argument
+2021-05-11T06:21:08.878595Z	    7 Connect	
+2021-05-11T06:21:08.878771Z	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2021-05-11T06:21:08.880301Z	    7 Quit	

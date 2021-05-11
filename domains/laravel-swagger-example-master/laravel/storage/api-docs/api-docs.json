@@ -1,0 +1,392 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Laravel Swagger API documentation example",
+        "contact": {
+            "email": "admin@example.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost/api",
+            "description": "Laravel Swagger API server"
+        }
+    ],
+    "paths": {
+        "/examples": {
+            "get": {
+                "tags": [
+                    "Examples"
+                ],
+                "summary": "Display a listing of the resource",
+                "operationId": "examplesAll",
+                "parameters": [
+                    {
+                        "name": "page",
+                        "in": "query",
+                        "description": "The page number",
+                        "required": false,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Everything is fine",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/ExampleShowRequest"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "api_key": []
+                    }
+                ]
+            },
+            "post": {
+                "tags": [
+                    "Examples"
+                ],
+                "summary": "Create yet another example record",
+                "operationId": "exampleCreate",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ExampleStoreRequest"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Everything is fine",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ExampleShowRequest"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "api_key": []
+                    }
+                ]
+            }
+        },
+        "/examples/{id}": {
+            "get": {
+                "tags": [
+                    "Examples"
+                ],
+                "summary": "Get example by ID",
+                "operationId": "examplesGet",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "The ID of example",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "example": "1"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Everything is fine",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ExampleShowRequest"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "api_key": []
+                    }
+                ]
+            },
+            "put": {
+                "tags": [
+                    "Examples"
+                ],
+                "summary": "Update example by ID",
+                "operationId": "examplesUpdate",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "The ID of example",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "example": "1"
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ExampleStoreRequest"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Everything is fine",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ExampleShowRequest"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "api_key": []
+                    }
+                ]
+            },
+            "delete": {
+                "tags": [
+                    "Examples"
+                ],
+                "summary": "Delete example by ID",
+                "operationId": "examplesDelete",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "The ID of example",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "example": "1"
+                    }
+                ],
+                "responses": {
+                    "202": {
+                        "description": "Deleted"
+                    }
+                },
+                "security": [
+                    {
+                        "api_key": []
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "ExampleShowRequest": {
+                "title": "Example showing request",
+                "description": "Some simple request createa as example",
+                "properties": {
+                    "id": {
+                        "title": "ID",
+                        "description": "Unique ID",
+                        "type": "integer",
+                        "example": "1"
+                    },
+                    "name": {
+                        "title": "Name",
+                        "description": "Name of key for storring",
+                        "type": "string",
+                        "example": "random"
+                    },
+                    "value": {
+                        "title": "Value",
+                        "description": "Value for storring",
+                        "type": "string",
+                        "example": "awesome"
+                    }
+                },
+                "type": "object"
+            },
+            "ExampleStoreRequest": {
+                "title": "Example storring request",
+                "description": "Some simple request createa as example",
+                "properties": {
+                    "name": {
+                        "title": "Name",
+                        "description": "Name of key for storring",
+                        "type": "string",
+                        "example": "random"
+                    },
+                    "value": {
+                        "title": "Value",
+                        "description": "Value for storring",
+                        "type": "string",
+                        "example": "awesome"
+                    }
+                },
+                "type": "object"
+            },
+            "ProfileModel": {
+                "title": "Example user's profile",
+                "description": "Some simple request createa as example",
+                "properties": {
+                    "birthday": {
+                        "title": "Birthday",
+                        "description": "The day",
+                        "type": "string",
+                        "format": "date",
+                        "example": "1985-05-11"
+                    },
+                    "inn": {
+                        "title": "INN of user",
+                        "description": "INN",
+                        "type": "string",
+                        "format": "number",
+                        "example": "1234567890"
+                    },
+                    "document_type": {
+                        "title": "Document type",
+                        "description": "Type of provided document",
+                        "type": "string",
+                        "format": "string",
+                        "example": "Паспорт РФ"
+                    },
+                    "document_serial": {
+                        "title": "Document serial",
+                        "description": "Serial number of provided document",
+                        "type": "integer",
+                        "format": "number",
+                        "example": "1111"
+                    },
+                    "document_number": {
+                        "title": "Document number",
+                        "description": "Number of provided document",
+                        "type": "integer",
+                        "format": "number",
+                        "example": "222222"
+                    },
+                    "document_date": {
+                        "title": "Document date",
+                        "description": "Date of registration of provided document",
+                        "type": "integer",
+                        "format": "date",
+                        "example": "2015-11-12"
+                    },
+                    "document_department_code": {
+                        "title": "Document department code",
+                        "description": "Department code of provided document",
+                        "type": "string",
+                        "format": "string",
+                        "pattern": "^\\d{2,5}-\\d{2,5}",
+                        "example": "111-222"
+                    },
+                    "document_department_name": {
+                        "title": "Document department name",
+                        "description": "Department name of provided document",
+                        "type": "string",
+                        "format": "string",
+                        "example": "УВД г. Москвы"
+                    },
+                    "registry_address": {
+                        "title": "Registry address",
+                        "description": "Registry address of provided document",
+                        "type": "string",
+                        "format": "string",
+                        "example": "г. Москва, ул. Рябиновая, д. 15, кв. 11"
+                    }
+                },
+                "type": "object"
+            },
+            "StoreRequest": {
+                "title": "Example complex model",
+                "description": "Example complex object",
+                "properties": {
+                    "user": {
+                        "$ref": "#/components/schemas/UserModel"
+                    },
+                    "profile": {
+                        "$ref": "#/components/schemas/ProfileModel"
+                    }
+                },
+                "type": "object"
+            },
+            "UserModel": {
+                "title": "Example user's model",
+                "description": "Some simple request createa as example",
+                "properties": {
+                    "first_name": {
+                        "title": "First Name",
+                        "description": "The first name",
+                        "type": "string",
+                        "format": "string",
+                        "example": "Сергей"
+                    },
+                    "last_name": {
+                        "title": "Last Name",
+                        "description": "The last name",
+                        "type": "string",
+                        "format": "string",
+                        "example": "Сергеев"
+                    },
+                    "email": {
+                        "title": "Email",
+                        "description": "Email of user",
+                        "type": "string",
+                        "format": "email",
+                        "example": "sergeev2@example.com"
+                    },
+                    "phone": {
+                        "title": "Phone",
+                        "description": "Phone of user",
+                        "type": "string",
+                        "format": "string",
+                        "example": "+7 (909) 123-45-88"
+                    }
+                },
+                "type": "object"
+            }
+        },
+        "securitySchemes": {
+            "X-APP-ID": {
+                "type": "apiKey",
+                "name": "X-APP-ID",
+                "in": "header"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Examples",
+            "description": "Some example pages"
+        }
+    ],
+    "security": [
+        []
+    ]
+}

@@ -1,0 +1,1 @@
+2021/05/11 09:52:55 [error] 6256#3192: *1 CreateFile() "c:/ospanel/domains/localhost/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/User-Swagger/server.php?_ijt=ul2l642pc9hd23kgasb7m22a14"

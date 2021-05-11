@@ -1,0 +1,102 @@
+2020-01-05T08:39:22.404706Z 0 [Note] c:\ospanel\modules\database\MySQL-5.7-x64\bin\mysqld.exe (mysqld 5.7.25-log) starting as process 3896 ...
+2020-01-05T08:39:22.414461Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-01-05T08:39:22.414723Z 0 [Note] InnoDB: Uses event mutexes
+2020-01-05T08:39:22.414855Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2020-01-05T08:39:22.414977Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-01-05T08:39:22.415540Z 0 [Note] InnoDB: Number of pools: 1
+2020-01-05T08:39:22.415871Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2020-01-05T08:39:22.417943Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-01-05T08:39:22.423683Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-01-05T08:39:22.491319Z 0 [Note] InnoDB: Setting log file .\ib_logfile101 size to 64 MB
+2020-01-05T08:39:23.048770Z 0 [Note] InnoDB: Setting log file .\ib_logfile1 size to 64 MB
+2020-01-05T08:39:23.610339Z 0 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2020-01-05T08:39:23.612732Z 0 [Warning] InnoDB: New log files created, LSN=15369014
+2020-01-05T08:39:23.623236Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-01-05T08:39:23.629060Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 15369228
+2020-01-05T08:39:23.629728Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 15369237
+2020-01-05T08:39:23.630305Z 0 [Note] InnoDB: Database was not shutdown normally!
+2020-01-05T08:39:23.630790Z 0 [Note] InnoDB: Starting crash recovery.
+2020-01-05T08:39:24.055338Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-01-05T08:39:24.055813Z 0 [Note] InnoDB: Setting file 'c:\ospanel\userdata\MySQL-5.7-x64\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-01-05T08:39:24.108761Z 0 [Note] InnoDB: File 'c:\ospanel\userdata\MySQL-5.7-x64\ibtmp1' size is now 12 MB.
+2020-01-05T08:39:24.110009Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-01-05T08:39:24.110128Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-01-05T08:39:24.110542Z 0 [Note] InnoDB: Waiting for purge to start
+2020-01-05T08:39:24.185058Z 0 [Note] InnoDB: 5.7.25 started; log sequence number 15369237
+2020-01-05T08:39:24.187195Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-01-05T08:39:24.190048Z 0 [Note] InnoDB: Loading buffer pool(s) from c:\ospanel\userdata\MySQL-5.7-x64\ib_buffer_pool
+2020-01-05T08:39:24.230280Z 0 [Note] Salting uuid generator variables, current_pid: 3896, server_start_time: 1578213562, bytes_sent: 0, 
+2020-01-05T08:39:24.248755Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200105 10:39:24
+2020-01-05T08:39:24.274399Z 0 [Note] Generated uuid: 'e0498edb-2f96-11ea-872f-40b076db205e', server_start_time: 1578217458, bytes_sent: 1819728785648
+2020-01-05T08:39:24.275035Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: e0498edb-2f96-11ea-872f-40b076db205e.
+2020-01-05T08:39:24.299978Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-01-05T08:39:24.303975Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-01-05T08:39:24.305533Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2020-01-05T08:39:24.460148Z 0 [Note] Failed to start slave threads for channel ''
+2020-01-05T08:39:24.564270Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-01-05T08:39:24.565032Z 0 [Note] c:\ospanel\modules\database\MySQL-5.7-x64\bin\mysqld.exe: ready for connections.
+Version: '5.7.25-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2020-01-05T09:56:40.893099Z 2 [Note] Unknown database 'testredb'
+2020-01-05T09:57:28.556140Z 3 [Note] Unknown database 'testredb'
+2020-01-05T09:57:30.077639Z 4 [Note] Unknown database 'testredb'
+2020-01-05T09:57:30.765716Z 5 [Note] Unknown database 'testredb'
+2020-01-05T09:57:31.053471Z 6 [Note] Unknown database 'testredb'
+2020-01-05T09:57:31.333730Z 7 [Note] Unknown database 'testredb'
+2020-01-05T09:58:21.075493Z 0 [Note] c:\ospanel\modules\database\MySQL-5.7-x64\bin\mysqld.exe: Normal shutdown
+
+2020-01-05T09:58:21.075813Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2020-01-05T09:58:21.075869Z 0 [Note] Shutting down slave threads
+2020-01-05T09:58:21.079982Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2020-01-05T09:58:21.089445Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-01-05T09:58:21.113413Z 0 [Note] Binlog end
+2020-01-05T09:58:21.116089Z 0 [Note] Shutting down plugin 'ngram'
+2020-01-05T09:58:21.127223Z 0 [Note] Shutting down plugin 'partition'
+2020-01-05T09:58:21.127245Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-01-05T09:58:21.127251Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-01-05T09:58:21.127255Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-01-05T09:58:21.127300Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-01-05T09:58:21.127645Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-01-05T09:58:21.127751Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-01-05T09:58:21.127760Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-01-05T09:58:21.127764Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-01-05T09:58:21.127767Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-01-05T09:58:21.127771Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-01-05T09:58:21.127774Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-01-05T09:58:21.127778Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-01-05T09:58:21.127781Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-01-05T09:58:21.127784Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-01-05T09:58:21.127788Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-01-05T09:58:21.127791Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-01-05T09:58:21.127794Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-01-05T09:58:21.127798Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-01-05T09:58:21.127801Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-01-05T09:58:21.127805Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-01-05T09:58:21.127808Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-01-05T09:58:21.127811Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-01-05T09:58:21.127815Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-01-05T09:58:21.127819Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-01-05T09:58:21.127824Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-01-05T09:58:21.127828Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-01-05T09:58:21.127832Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-01-05T09:58:21.127836Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-01-05T09:58:21.127840Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-01-05T09:58:21.127845Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-01-05T09:58:21.127849Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-01-05T09:58:21.127853Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-01-05T09:58:21.127857Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-01-05T09:58:21.127860Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-01-05T09:58:21.127864Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-01-05T09:58:21.127867Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-01-05T09:58:21.128030Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-01-05T09:58:21.128088Z 0 [Note] InnoDB: Starting shutdown...
+2020-01-05T09:58:21.229338Z 0 [Note] InnoDB: Dumping buffer pool(s) to c:\ospanel\userdata\MySQL-5.7-x64\ib_buffer_pool
+2020-01-05T09:58:21.230450Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200105 11:58:21
+2020-01-05T09:58:22.534339Z 0 [Note] InnoDB: Shutdown completed; log sequence number 15369265
+2020-01-05T09:58:22.535626Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-01-05T09:58:22.535816Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-01-05T09:58:22.535863Z 0 [Note] Shutting down plugin 'CSV'
+2020-01-05T09:58:22.535887Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-01-05T09:58:22.535904Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-01-05T09:58:22.536238Z 0 [Note] Shutting down plugin 'binlog'
+2020-01-05T09:58:22.554393Z 0 [Note] c:\ospanel\modules\database\MySQL-5.7-x64\bin\mysqld.exe: Shutdown complete
+

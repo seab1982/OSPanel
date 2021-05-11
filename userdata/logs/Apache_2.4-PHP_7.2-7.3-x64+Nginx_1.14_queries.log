@@ -1,0 +1,3 @@
+localhost: 127.0.0.1 [11/May/2021:09:52:55 +0300] "GET /User-Swagger/server.php?_ijt=ul2l642pc9hd23kgasb7m22a14 HTTP/1.1" "-" 404 1098 "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" "-"
+localhost: 127.0.0.1 [11/May/2021:09:52:55 +0300] "GET /favicon.ico HTTP/1.1" "http://localhost/User-Swagger/server.php?_ijt=ul2l642pc9hd23kgasb7m22a14" 404 736 "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" "-"
+localhost: 127.0.0.1 [11/May/2021:10:10:55 +0300] "GET / HTTP/1.1" "-" 200 1548 "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" "-"

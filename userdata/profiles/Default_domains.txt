@@ -1,0 +1,4 @@
+larahi;\larahi\public
+laravel.first;\laravel.first\blog\public
+reas;\reas\web
+yfor;\yfor
