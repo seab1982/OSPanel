@@ -1,0 +1,6 @@
+2021-05-11T06:21:05.915487Z 0 [System] [MY-010116] [Server] c:\ospanel\modules\database\MySQL-8.0-x64\bin\mysqld.exe (mysqld 8.0.15) starting as process 3592
+2021-05-11T06:21:05.972936Z 0 [Warning] [MY-013242] [Server] --character-set-server: 'utf8' is currently an alias for the character set UTF8MB3, but will be an alias for UTF8MB4 in a future release. Please consider using UTF8MB4 in order to be unambiguous.
+2021-05-11T06:21:05.972988Z 0 [Warning] [MY-013244] [Server] --collation-server: 'utf8_general_ci' is a collation of the deprecated character set UTF8MB3. Please consider using UTF8MB4 with an appropriate collation instead.
+2021-05-11T06:21:07.725165Z 0 [Warning] [MY-010075] [Server] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 1265a137-b221-11eb-b1b5-40b076db205e.
+2021-05-11T06:21:08.767485Z 0 [System] [MY-010931] [Server] c:\ospanel\modules\database\MySQL-8.0-x64\bin\mysqld.exe: ready for connections. Version: '8.0.15'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2021-05-11T06:21:08.879777Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060

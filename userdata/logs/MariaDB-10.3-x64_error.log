@@ -1,0 +1,37 @@
+2020-01-02 14:14:39 0 [Note] c:\ospanel\modules\database\MariaDB-10.3-x64\bin\mysqld.exe (mysqld 10.3.13-MariaDB) starting as process 4620 ...
+2020-01-02 14:14:39 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-01-02 14:14:39 0 [Note] InnoDB: Uses event mutexes
+2020-01-02 14:14:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-01-02 14:14:39 0 [Note] InnoDB: Number of pools: 1
+2020-01-02 14:14:39 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-01-02 14:14:39 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-01-02 14:14:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-01-02 14:14:39 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-01-02 14:14:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-01-02 14:14:39 0 [Note] InnoDB: Setting file 'c:\ospanel\userdata\MariaDB-10.3-x64\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-01-02 14:14:39 0 [Note] InnoDB: File 'c:\ospanel\userdata\MariaDB-10.3-x64\ibtmp1' size is now 12 MB.
+2020-01-02 14:14:39 0 [Note] InnoDB: Waiting for purge to start
+2020-01-02 14:14:39 0 [Note] InnoDB: 10.3.13 started; log sequence number 1632789; transaction id 21
+2020-01-02 14:14:39 0 [Note] InnoDB: Loading buffer pool(s) from c:\ospanel\userdata\MariaDB-10.3-x64\ib_buffer_pool
+2020-01-02 14:14:39 0 [Note] InnoDB: Buffer pool(s) load completed at 200102 14:14:39
+2020-01-02 14:14:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-01-02 14:14:39 0 [Note] Server socket created on IP: '127.0.0.1'.
+2020-01-02 14:14:39 0 [Note] Reading of all Master_info entries succeded
+2020-01-02 14:14:39 0 [Note] Added new Master_info '' to hash table
+2020-01-02 14:14:39 0 [Note] c:\ospanel\modules\database\MariaDB-10.3-x64\bin\mysqld.exe: ready for connections.
+Version: '10.3.13-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2020-01-02 14:25:17 8 [Warning] Access denied for user 'admin'@'localhost' (using password: NO)
+2020-01-02 14:25:40 9 [Warning] Access denied for user 'admin'@'localhost' (using password: YES)
+2020-01-02 14:26:03 10 [Warning] Access denied for user 'admin'@'localhost' (using password: YES)
+2020-01-02 14:26:26 11 [Warning] Access denied for user 'admin'@'localhost' (using password: NO)
+2020-01-02 14:26:36 12 [Warning] Access denied for user 'admin'@'localhost' (using password: YES)
+2020-01-02 14:27:16 0 [Note] c:\ospanel\modules\database\MariaDB-10.3-x64\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2020-01-02 14:27:16 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-01-02 14:27:16 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-01-02 14:27:16 0 [Note] InnoDB: Starting shutdown...
+2020-01-02 14:27:16 0 [Note] InnoDB: Dumping buffer pool(s) to c:\ospanel\userdata\MariaDB-10.3-x64\ib_buffer_pool
+2020-01-02 14:27:16 0 [Note] InnoDB: Buffer pool(s) dump completed at 200102 14:27:16
+2020-01-02 14:27:17 0 [Note] InnoDB: Shutdown completed; log sequence number 1632798; transaction id 22
+2020-01-02 14:27:17 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-01-02 14:27:17 0 [Note] c:\ospanel\modules\database\MariaDB-10.3-x64\bin\mysqld.exe: Shutdown complete
+
